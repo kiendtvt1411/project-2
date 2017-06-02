@@ -1,0 +1,21 @@
+﻿Theo App của em thì:
+- Client Android khi điều chỉnh đèn, thanh nhiệt độ, thanh độ ẩm sẽ gửi 
+bản tin JSON cho Server như sau :
+	{
+		id_room : int (1 hoặc 2),
+		lamp_1 : boolean (T or F),
+		lamp_2 : boolean,
+		lamp_3 : boolean,
+		max_temperature : float,
+		max_humidity : float
+	}
+
+- Server gửi về Client Android bản tin JSON như sau:
+	{
+		id_room : int,
+		lamp_1 : boolean,
+		lamp_2 : boolean,
+		lamp_3 : boolean,
+		temperature : float (nhiệt độ phòng hiện tại), 
+		humidity : float (độ ẩm phòng hiện tại)
+	}

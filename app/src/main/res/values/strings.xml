@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">ĐỒ ÁN II</string>
+
+    <!--Splash Screen-->
+    <string name="splash_project_name">ĐỒ ÁN II</string>
+    <string name="splash_member_1">Nguyễn Trung Kiên</string>
+    <string name="splash_member_2">Nguyễn Trọng Đức</string>
+    <string name="splash_member_3">Vũ Phi Long</string>
+    <string name="splash_mentor">Cô Nhung</string>
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+
+    <!--Drawer-->
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+
+    <!--Drawer Menus-->
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+
+    <!--Login-->
+    <string name="login_dummy">Login Project II</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ip_address">Ip Address</string>
+
+    <!--Login Validation-->
+    <string name="empty_email">Please provide a non empty email.</string>
+    <string name="invalid_email">Please provide a valid email.</string>
+    <string name="empty_password">Please provide a non empty password.</string>
+
+    <!--about fragment-->
+    <string name="project_info">This project II implements MVP architecture using Dagger2, ButterKnife, Retrolambda, SocketIO, PhilJay Chart, GreenDao, RxJava, FastAndroidNetworking and PlaceholderView</string>
+    <string name="link_refer_1">1. https://google.com</string>
+    <string name="link_refer_2">2. https://google.com</string>
+    <string name="link_refer_3">3. https://google.com</string>
+    <string name="link_refer_4">4. https://google.com</string>
+    <string name="version">"version"</string>
+
+    <!--room fragment-->
+    <string name="status_lamp">Trạng thái</string>
+    <string name="lamp_on"> ON</string>
+    <string name="lamp_off"> OFF</string>
+    <string name="adjust_temp">Điều chỉnh nhiệt độ : </string>
+    <string name="adjust_humid">Điều chỉnh độ ẩm : </string>
+    <string name="current_humid">Độ ẩm hiện tại : </string>
+    <string name="current_temp">Nhiệt độ hiện tại : </string>
+    <string name="index_C"> ˚C</string>
+    <string name="index_humid"> %</string>
+    <string name="open_chart">Xem thông số trên biểu đồ</string>
+    <string name="close_chart">Thu gọn màn hình</string>
+
+    <!--room history-->
+    <string name="more">Xem chi tiết >>></string>
+    <string name="one">ROOM I</string>
+    <string name="two">ROOM II</string>
+
+    <!--detail fragment-->
+    <string name="detail">Chi tiết phòng</string>
+    <string name="temp">Nhiệt độ :</string>
+    <string name="humid">Độ ẩm :</string>
+    <string name="temp_max">Ngưỡng :</string>
+    <string name="humid_max">Ngưỡng :</string>
+
+    <!--home menu-->
+    <string name="setting">Setting</string>
+    <string name="search">Search</string>
+
+</resources>
