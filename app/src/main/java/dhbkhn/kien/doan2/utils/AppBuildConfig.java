@@ -14,5 +14,5 @@ public final class AppBuildConfig {
 
     public static final String BASE_URL = "http://www.mocky.io/v2";
 
-    public static String NODE_SERVER = "http://192.168.0.104";
+    public static String NODE_SERVER = "http://192.168.0.16";
 }

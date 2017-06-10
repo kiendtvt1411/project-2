@@ -1,0 +1,13 @@
+﻿Chú ý cho Đức :
+- Ông đọc file Note_anh_thắng để đọc về quy ước JSON của ae trước
+- Vấn đề khi gửi dữ liệu từ điện thoại lên là : thanh seekbar để điều chỉnh 
+nhiệt độ và độ ẩm tối đa khi người dùng click 1 giá trị trên thanh thì ko
+sao, nhưng khi người dùng kéo từ từ lên giá trị mong muốn thì sẽ phát 
+sinh ra vô số sự thay đổi trong khoảng kéo đó. Vì vậy khi mà khi điện 
+thoại người dùng kéo seekbar mà gửi vô số như thế lên thì ông xử lý 
+server làm sao để chỉ lấy đc điều kiện temp_max và humid_max	mà ông 
+cần, và chỉ trả về điện thoại duy nhất 1 lần thôi nhé
+- Ông clone cái github url này về build thử lên, vào package
+	utils/AppBuildConfig.java
+hoặc app/src/main/java/dhbkhn/kien/doan2/utils/AppBuildConfig.java
+thay đổi địa chỉ IP cho trường NODE_SERVER nhé!
